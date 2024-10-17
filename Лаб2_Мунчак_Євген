@@ -14,7 +14,7 @@ public class lab2 {
                 "+380 (50) 592 35 02", "+380 (50) 592-35-02", "+380 50 592-35-02"
         };
 
-        String phoneNumberPattern = "^\\+38\\s?[38]?[^a-zA-Z]+[\\S]+[0-9]+[\\S]+[0-9]+$";
+        String phoneNumberPattern = "^\\+38\\s?[^a-zA-Z]+[\\S]+[0-9]+[\\S]+[0-9]+$";
 
         Pattern p = Pattern.compile(phoneNumberPattern);
 
